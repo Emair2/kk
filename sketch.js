@@ -14,7 +14,7 @@ function setup() {
     }
 
     // 创建更多的鱼
-    for (let i = 0; i < 1000; i++) { // 增加至1000条鱼
+    for (let i = 0; i < 100; i++) { // 增加至1000条鱼
         fish.push(new Fish(random(width), random(height))); // 创建1000条随机位置的鱼
     }
 
